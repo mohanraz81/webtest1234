@@ -10,5 +10,5 @@
       name: httpd
       state: started
   - copy:
-      src: files/index.html
+      src: index.html
       dest: /var/www/html/index.html
